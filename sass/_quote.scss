@@ -1,0 +1,13 @@
+.quote {
+  height: 50px;
+  background-color: #ffcc99;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cite {
+    text-align: center;
+    text-shadow: 2px 2px #adad85;
+    font-weight: bold;
+    font-size: 22px;
+  }
+}

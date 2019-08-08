@@ -1,0 +1,108 @@
+@media screen and (max-width: 1024px) {
+  nav {
+    height: 150px;
+
+    .hamburger {
+      position: relative;
+      top: 50px;
+    }
+  }
+
+  .icons-section,
+  .gallery,
+  .price {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-img {
+    height: 200px;
+    width: 100%;
+  }
+
+  .parallax,
+  .img-parallax {
+    min-height: 200px;
+  }
+
+  .gallery-box img {
+    height: 300px;
+  }
+
+  .contact-box {
+    width: 200px;
+  }
+
+  .quote {
+    height: 70px;
+  }
+
+
+
+  //contact
+  .contact {
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/background-beans.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin-bottom: 10px;
+
+    .contact-box {
+      width: 300px;
+      background-color: white;
+
+      .contact-header {
+        text-align: center;
+      }
+
+      label {
+        font-size: 20px;
+        background-color: white;
+      }
+
+      input[type='text'],
+      select,
+      textarea {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid black;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+        font-weight: bold;
+        font-size: 18px;
+        background-color: white;
+      }
+
+      input[type='submit'] {
+        padding: 12px 120px;
+      }
+
+      input[type='submit']:hover {
+        background-image: linear-gradient(120deg, #663300 0%, #ffcc99 100%);
+      }
+    }
+  }
+
+  //quote 
+  .quote {
+    cite {
+      width: 80%;
+    }
+
+  }
+
+  //footer
+  .footer-copyright-text {
+
+    margin-top: 10px;
+
+    h3 {
+      font-size: 14px;
+    }
+  }
+}

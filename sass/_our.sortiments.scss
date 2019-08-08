@@ -1,0 +1,23 @@
+.our-sortiments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .our-sortiments-img {
+    text-align: center;
+    width: 300px;
+
+    img {
+      height: 200px;
+      cursor: pointer;
+    }
+
+    .zoom {
+      transition: transform 1s;
+
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}

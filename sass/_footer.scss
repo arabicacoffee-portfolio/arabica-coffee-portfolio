@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+
+  .social-box img {
+    height: 100px;
+    transition: transform 1s;
+
+    &:hover {
+      opacity: 0.85;
+      transform: scale(1.05);
+    }
+  }
+}
+
+.footer-copyright-text {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}

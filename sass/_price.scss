@@ -1,0 +1,62 @@
+.price-header {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  .price-box {
+    border: 5px solid #662200;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    img {
+      width: 200px;
+      height: 300px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .taste {
+      flex-direction: column;
+      display: flex;
+
+      .taste-aroma,
+      .taste-sharp,
+      .taste-soft {
+        display: flex;
+
+        .taste-img img {
+          height: 45px;
+          width: 120px;
+        }
+      }
+    }
+
+    .price-button {
+      display: flex;
+      justify-content: center;
+
+      button {
+        background-color: black;
+        color: wheat;
+        cursor: pointer;
+        padding: 15px 30px;
+        border-radius: 10px;
+
+        &:hover {
+          background-color: wheat;
+          color: black;
+          border: 2px solid black;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@media screen and (max-width: 768px) {
+
+  .nav-links {
+    position: fixed;
+    right: 0px;
+    height: 80vh;
+    top: 20vh;
+    background-image: linear-gradient(120deg, #ffcc99 0%, #663300 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+
+    li {
+      opacity: 0;
+
+    }
+  }
+
+  .hamburger {
+    display: block;
+
+  }
+}
+
+.nav-active {
+  transform: translateX(0%);
+
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}

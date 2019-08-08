@@ -1,0 +1,19 @@
+.taste-button {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+
+  .button button {
+    color: black;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-image: linear-gradient(120deg, #ffcc99 0%, #663300 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+
+    &:hover {
+      color: white;
+      background-image: linear-gradient(120deg, #663300 0%, #ffcc99 100%);
+    }
+  }
+}

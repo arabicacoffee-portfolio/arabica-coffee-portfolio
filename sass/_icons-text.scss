@@ -1,0 +1,44 @@
+.icons-section {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+
+  .icon-box1,
+  .icon-box2,
+  .icon-box3 {
+    border: 15px solid white;
+    width: 250px;
+
+    .icon-img1,
+    .icon-img2,
+    .icon-img3 {
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .icon-img1 img {
+      height: 150px;
+    }
+
+    .icon-img2 img {
+      height: 150px;
+    }
+
+    .icon-img3 img {
+      height: 150px;
+    }
+
+    hr {
+      height: 3px;
+      margin: 10px;
+    }
+  }
+
+  .zoom {
+    transition: transform 1s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

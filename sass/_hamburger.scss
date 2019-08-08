@@ -1,0 +1,26 @@
+.hamburger {
+  display: none;
+  cursor: pointer;
+
+  .line1,
+  .line2,
+  .line3 {
+    width: 25px;
+    height: 5px;
+    background-color: black;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 18px);
+}
+
+.toggle .line2 {
+  opacity: 0;
+}
+
+.toggle .line3 {
+  transform: rotate(45deg) translate(5px, -9px);
+}
